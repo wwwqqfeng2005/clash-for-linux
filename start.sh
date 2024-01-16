@@ -13,7 +13,7 @@ if_success() {
 	fi
 }
 
-Server_Dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+Server_Dir="/home/clash-for-linux"
 Conf_Dir="$Server_Dir/conf"
 Temp_Dir="$Server_Dir/temp"
 Log_Dir="$Server_Dir/logs"
@@ -45,4 +45,3 @@ if_success $Text3 $Text4
 
 # 添加环境变量
 echo -e "export http_proxy=http://127.0.0.1:7890\nexport https_proxy=http://127.0.0.1:7890" > /etc/profile.d/clash.sh
-echo -e "系统代理http_proxy/https_proxy设置成功，请在当前窗口执行以下命令加载环境变量:\n\nsource /etc/profile.d/clash.sh\n"
