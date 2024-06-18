@@ -17,7 +17,7 @@ Server_Dir="/home/kaliroot/clash-for-linux-master"
 Conf_Dir="$Server_Dir/conf"
 Temp_Dir="$Server_Dir/temp"
 Log_Dir="$Server_Dir/logs"
-URL='https://sub.bbjc.xyz/api/v1/client/subscribe?token=226de40623fb6930b33eb054552308a3'
+URL='这里填写你的订阅地址'
 
 # 临时取消环境变量
 unset http_proxy
