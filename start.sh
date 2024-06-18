@@ -13,11 +13,11 @@ if_success() {
 	fi
 }
 
-Server_Dir="/home/clash-for-linux"
+Server_Dir="/home/kaliroot/clash-for-linux-master"
 Conf_Dir="$Server_Dir/conf"
 Temp_Dir="$Server_Dir/temp"
 Log_Dir="$Server_Dir/logs"
-URL='更改为你的clash订阅地址'
+URL='https://sub.bbjc.xyz/api/v1/client/subscribe?token=226de40623fb6930b33eb054552308a3'
 
 # 临时取消环境变量
 unset http_proxy
